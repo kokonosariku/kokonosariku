@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "typeRoots": [
+      "./typings"
+    ],
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "include": [
+    "packages",
+    "typings"
+  ]
+}

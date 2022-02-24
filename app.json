@@ -1,0 +1,18 @@
+{
+    "id": "b9970f61-06ac-46e4-ade3-3b0f0c667739",
+    "version": "1.0.1",
+    "requiredApiVersion": "^1.21.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Marcelo Schmidt",
+        "homepage": "https://github.com/marceloschmidt/koko",
+        "support": "https://github.com/marceloschmidt/koko/issues"
+    },
+    "name": "Koko",
+    "nameSlug": "koko",
+    "classFile": "KokoApp.ts",
+    "description": "Rocket.Chat Koko Bot",
+    "implements": [
+        "IUIKitInteractionHandler"
+    ]
+}
